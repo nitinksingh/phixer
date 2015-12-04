@@ -6,9 +6,9 @@
 #include <time.h>
 
 /* Pragma for User defined values */
-#define NROW 10
-#define TSAMPLE_COUNT 10
-#define NBOOTSTRAP 1
+#define NROW 100
+#define TSAMPLE_COUNT 585
+#define NBOOTSTRAP 10
 /* Compute other pragmas based on above */
 #define NBINS (int) floor(0.5*sqrt(TSAMPLE_COUNT))
 //#define NBINS 3
