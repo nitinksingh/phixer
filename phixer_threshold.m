@@ -8,7 +8,7 @@ function thresholded_nw = phixer_threshold(pruned_file, threshold)
     end
     
     % Load input file
-    thresholded_nw =  dlmread(pruned_file, '\t');
+    thresholded_nw =  dlmread(pruned_file, ',');
     
     % Convert to matrix
     thresholded_nw = spconvert(thresholded_nw);
